@@ -1,0 +1,118 @@
+*{
+	color: #c2c2c2;
+	margin: 0;
+	font-family: Arial, sans-serif;	
+}
+
+body{
+	padding-top: 50px;
+	background-color: #f1f1f1;
+}
+form[name="form_search"]{
+	display: inline-block;
+	width: 80%;
+	margin: 0 10% 0 10%;
+	font-size: 0;	
+}
+.main_search{
+	width: 92%;
+	padding: 0 0 0 20px;
+	border: none;
+	font-size: 90px;
+	background: transparent;
+	color: #ec5a62;
+	font-weight: 600;
+	outline: 0;
+}
+input.main_search::placeholder	{
+	color: #c2c2c2;
+}
+.button_search{
+	
+	width: 8%;
+	font-size: 90px;
+	overflow: hidden;
+	background: transparent url(../img/magnifier.svg) no-repeat center center ;
+	border: none;
+	padding: 0;
+}
+
+button.button_search {
+	color: transparent;
+}
+/* Delete bottom x into input only Chrome*/
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+/* ASIDE */
+.main_aside aside {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 5%
+
+}
+.main_aside aside:first-child{
+	margin-left: 0;
+}
+.main_aside {
+	width: 80%;
+	margin: 0 10% 0 10%;
+	padding: 70px 0 70px 0;
+	font-size: 0;
+}
+.main_aside ul{
+	padding-left: 0;
+	margin-left:  0;
+	list-style-type: none;
+}
+.main_aside h2{
+	text-transform: uppercase;
+}
+
+div.main_aside aside.first_aside{
+	width: 30%;
+	
+}
+div.main_aside aside.second_aside{
+	width: 30%;
+	
+}
+div.main_aside aside.third_aside{
+	width: 30%;	
+}	
+
+.m_list a{
+	margin: 10px 0;
+	display: block;
+	padding: 10px;
+	background: rgba(118,117,128,0.05);
+}
+ul.m_list li a img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+.m_list h3 {
+	vertical-align: middle;
+	display: inline-block;
+    color: #acacac;
+	
+}
+
+.m_list a:hover{
+	color: #ec5a62;
+	background-color: rgba(118,117,128,0.1);
+}
+.m_list a:hover h3{
+	color: #ec5a62;
+	
+}
+.img_circle{
+	border-radius: 50%;
+}
+button.button_search:hover{
+	background-size: 90px;
+}
