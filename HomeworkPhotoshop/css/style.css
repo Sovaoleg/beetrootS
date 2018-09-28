@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900');
+body{
+	max-width: 1500px;
+	margin: 0 auto;
+	background-color: #eeeeee;
+}
+.upsection {
+	max-width: 1214px;
+	height: 720px;
+	margin: 0 auto;
+	padding-top: 60px;
+	background: url("../img/bg_gradient.png") no-repeat 0 0;
+	background-size: cover;
+
+}
+.header_menu,
+.logo,
+.header_menu ul{
+	display: inline-block;
+}
+.logo a img{
+	width: 272px;
+	height: 36px;
+	display: block;
+}
+.header_menu ul li {
+	display: inline-block;
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 46px;
+	font-size: 18px;
+	font-weight: 400px;	 
+}
+
+.header_menu ul{
+	margin-right: 30px;
+	margin-top: 0px;
+}
+.menu_button {
+	width: 16px;
+	height: 15px;
+	background: inherit;
+	list-style: none;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+.menu_button img{
+	display: block;
+}
+.header_menu {
+float: right;
+line-height: 0;
+}
+.main_head{
+	margin-bottom: 95px;
+}
+.text{
+	width: 630px;
+	height: 495px;
+}
+div.text h1{
+ text-transform: uppercase;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 900;
+ font-size: 150px;
+ text-align: right;
+ line-height: 150px;
+ letter-spacing: 4px;
+ color: rgb(48,48,48);
+ margin: 0;	
+}
+.text h1 + p {
+	font-size: 24px;
+	letter-spacing: 1px;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: right;
+    margin-bottom: 0;
+}
+.text p:last-child{
+	font-size: 24px;
+letter-spacing: 1px;
+line-height: 36px;
+color: rgb(225,0,17);
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+text-align:right;
+margin-bottom: 0;
+}
+
+.text,
+.image_main,
+.image_main a{
+	display: inline-block;
+}
+.image_main{
+margin-left: 110px;
+
+}
+.image_main a img{
+	width: 360px;
+	height: 491px;
+	display: block;
+}
+.three_button{
+	text-align: center;
+	margin-top: 75px;
+}
+.red{
+	background-color: rgb(48,48,48);
+    list-style: none;
+    outline: none;
+    padding: 0;
+	width: 12px;
+	height: 12px;
+	border: none;
+	border-radius: 50%;
+}
+.red:hover{
+	background-color: rgb(225,0,17);
+}
+
+
+.main_content {
+	width: 1200px;
+	height: 1200px;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 100px;
+	
+}
+.main_content h3{
+	margin-bottom: 21px;
+	text-transform: capitalize;
+	font-weight: 900;
+	font-family:'Raleway', sans-serif;
+	font-size: 48px;
+	color: rgb(48,48,48);
+	padding-top: 100px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.main_content h3 + img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0;
+	width: 213px;
+	height: 17px;
+
+}
+.main_content p{
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400px;
+	line-height: 24px;
+	text-align: center;
+}
+.image {
+	width: 1055px;
+	height: 385px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.image img{
+	display: block;
+	border-radius: 5px;
+	
+}
+div.image a {
+	display: inline-block;
+	overflow: hidden;
+	background: #e10011;
+	border-radius: 5px;
+	position: relative;
+}
+div.example{
+	position: relative;
+}
+.first_line a:first-child {
+	margin-right: 29px;
+}
+.first_image{
+	width: 692px;
+	height: 387px;
+	
+}
+.second_image{
+	width: 328px;
+	height: 387px;
+
+}
+
+.second_line{
+	margin-top: 32px;
+}
+.second_line a {
+	margin-right: 29px;
+}
+.second_line a:last-child{
+	margin-right: 0;
+}
+img.th_image{
+	width: 328px;
+	height: 387px;	
+}
+.fouth_image{
+	width: 329px;
+	height: 387px;	
+}
+.fifth_image{
+	width: 328px;
+	height: 387px;
+}
+.image p{
+	position: absolute;
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	top: 70%;
+	left: 30px;
+	color: #ffffff;
+	text-align: left;
+	opacity: 0;
+	line-height: 30px;
+}
+
+.image a:hover img{
+	opacity: 0;
+}
+.image a:hover p{
+	opacity: 1;
+}
+.image a:hover span{
+	border-bottom: 5px solid #ffffff;
+	opacity: 1; 
+}
+
+/*Footer*/
+
+
+.main_footer{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.main_footer > h3{
+	margin-top:90px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family:'Raleway', sans-serif;
+	font-size: 48px;
+	color: rgb(48,48,48);
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 23px;
+}
+.main_footer h3 + p {
+font-size: 18px;
+line-height: 24px;
+color: #303030;
+font-family: "Raleway", sans-serif;
+text-align: center;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.email {
+    width: 700px;
+	height: 67px;
+	margin: 0 auto;
+}	
+.email input{
+	width: 70%;
+	height: 100%;
+	display: inline-block;	
+	box-sizing: border-box;
+	font-size: 14px;
+	border-radius: 30px 0 0 30px;
+	border: none;	
+	outline: none;
+	 background: #ffffff url("../img/icon_email.jpg") no-repeat 30px 50% ;  
+}
+.email button {
+	width: 30%;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	border-radius: 0 30px 30px 0;
+	border: none;
+	outline: none;
+	background: #e10011 ;
+	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+.email button span{
+	width: 0;
+	height: 0;
+	display: inline-block;
+	border: 6px solid #e10011;
+	border-left-color: white;
+}
+input[placeholder="Enter your email address"] {
+	font-size: 18px;
+	font-family: "Raleway", sans-serif;
+	padding-left: 60px;
+	font-weight: 600;
+	font-style: italic;
+}
+.icon {
+	padding: 0;
+	margin: 110px 0 150px 427px;	
+	
+}
+.icon li {
+	display: inline-block;
+	margin-right: 20px; 
+}
+.icon li:last-child {
+	margin-right: 0; 
+}
+.icon li a{
+	display: block;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	position: relative;
+}
+.icon li a img{
+	margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; 
+  right: 0;
+}
+.main_footer h3{
+	font-size: 18px;
+	color: #979797;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.main_footer h3 span{
+	color: black;
+}
+/*.first_line a{
+	display: block;
+}
+.first_line div{
+	display: inline-block;
+	border-radius: 5px;
+}
+.picture_1{
+	width: 690px;
+	height: 385px;
+	margin-right: 30px;
+	background: #eeeeee url("../img/image_1.png") no-repeat ;
+	background-position: -104px -68px;
+}
+.picture_2{
+	width: 325px;
+	height: 385px;
+	background: #eeeeee url("../img/image_2.png") no-repeat ;
+	background-position: 35px -70px;	 
+}*/
